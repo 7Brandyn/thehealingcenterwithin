@@ -103,7 +103,8 @@ header ul li a.active {
 }
 
 .container-box .text h2 {
-    font-size: 6em;
+    font-family: "Dancing Script", cursive;
+    font-size: 7.8em;
     color: var(--primary-color);
 }
 
