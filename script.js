@@ -16,3 +16,15 @@ for (let j = 0; j<dots.length; j++) {
         SetActive(j);
     })
 }
+
+// Function to replace the text in the About Me section
+function replaceAboutMeText() {
+    // Get the element by ID
+    const aboutMeSection = document.getElementById('aboutMe');
+  
+    // New text you want to set
+    const newText = "Hello! I'm a passionate developer with a love for coding and creating innovative solutions.";
+  
+    // Replace the inner HTML or text content
+    aboutMeSection.innerHTML = `<p>${newText}</p>`;
+  }
