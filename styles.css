@@ -70,7 +70,7 @@ header ul li a.active {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
-    opacity: 0%;
+    opacity: 10%;
 }
 
 .app {
