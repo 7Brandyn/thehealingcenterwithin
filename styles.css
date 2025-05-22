@@ -17,12 +17,12 @@
     display: flex;
     align-items: center;
     position: relative;
-    background: linear-gradient(
+    /* background: linear-gradient(
         90deg,
         var(--lite), 
         var(--lite) 60%, 
         var(--primary-color) 60%, 
-        var(--primary-color) 100%);
+        var(--primary-color) 100%); */
     min-height: 100vh;
     padding: 0 100px;
 }
@@ -70,7 +70,7 @@ header ul li a.active {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
-    opacity: 10%;
+    opacity: 20%;
 }
 
 .app {
@@ -103,19 +103,19 @@ header ul li a.active {
 
 .container-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     z-index: 1;
 }
 
 .container-box .text {
-    max-width: 800px;
+    max-width: 960px;
 }
 
 .container-box .text h2 {
     font-family: "Dancing Script", cursive;
-    font-size: 7.8em;
+    font-size: 6em;
     color: var(--primary-color);
 }
 
@@ -130,6 +130,13 @@ header ul li a.active {
     margin:20px 0;
     font-weight: 700;
     color: var(--dark);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .btn {
